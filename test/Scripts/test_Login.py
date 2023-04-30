@@ -18,6 +18,6 @@ class Test_Logis(WebDriverSetup):
         self.driver.get(LogiPage.get_base_url())
         login_page = LogiPage(driver)
         time.sleep(3)
-        login_page.sign_up("bratan", "secret_sauce")
+        login_page.sign_up("brayan", "secret_sauce")
         login_page.click_sing_up()
 
